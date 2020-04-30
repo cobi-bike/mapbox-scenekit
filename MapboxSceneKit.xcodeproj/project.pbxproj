@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		109781F4245AE655007E9F89 /* AtomicPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109781F3245AE655007E9F89 /* AtomicPropertyWrapper.swift */; };
 		81293BEC20B4A1FB0014A17A /* MapboxSceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; };
 		81293BF120B4A29C0014A17A /* MapboxSceneKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81293BF320B4A35C0014A17A /* DemoStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC920B4A1AE0014A17A /* DemoStyleViewController.swift */; };
@@ -71,7 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		109781F3245AE655007E9F89 /* AtomicPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicPropertyWrapper.swift; sourceTree = "<group>"; };
 		81293BC820B4A1AE0014A17A /* DemoHeightmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHeightmapViewController.swift; sourceTree = "<group>"; };
 		81293BC920B4A1AE0014A17A /* DemoStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStyleViewController.swift; sourceTree = "<group>"; };
 		81293BCB20B4A1AE0014A17A /* ProgressCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCompositor.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 				814F3BD420ADF1B40006DDFD /* MapboxImageAPI.swift */,
 				9598A003215EB4460086CF4E /* StaticConstants.swift */,
 				81A4371620A1FAB700F42A53 /* Math.swift */,
-				109781F3245AE655007E9F89 /* AtomicPropertyWrapper.swift */,
 				957C85E12146FF92004C548E /* Routes */,
 				814F3BD820AE02E60006DDFD /* Extensions */,
 				81A4372820A2440D00F42A53 /* Tile Fetching */,
@@ -425,7 +422,6 @@
 				81A4372A20A2444B00F42A53 /* HTTPRequestOperation.swift in Sources */,
 				81A4372520A243E100F42A53 /* AsyncOperation.swift in Sources */,
 				81A4372320A243B200F42A53 /* MapboxHTTPAPI.swift in Sources */,
-				109781F4245AE655007E9F89 /* AtomicPropertyWrapper.swift in Sources */,
 				957C85E82146FF92004C548E /* PolylineShader.swift in Sources */,
 				954A248221484F330050025E /* PolylineNode.swift in Sources */,
 				9598A005215EB4E80086CF4E /* StaticConstants.swift in Sources */,
