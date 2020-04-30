@@ -45,7 +45,7 @@ open class TerrainNode: SCNNode {
     
     /// APIs and Tile fetching
     private let api = MapboxImageAPI()
-    fileprivate var pendingFetches = [UUID]()
+    @Atomic fileprivate var pendingFetches = [UUID]()
     private static let queue = DispatchQueue(label: "com.mapbox.scenekit.processing", attributes: [.concurrent])
 
     required public init?(coder aDecoder: NSCoder) {
